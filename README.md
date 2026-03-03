@@ -1,4 +1,10 @@
-# # 🛡️ Classificador e Ataque de Herói (Orientação a Objetos)
+# 🛡️ Classificador e Ataque de Herói (Orientação a Objetos)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen?style=for-the-badge)
+![Logic](https://img.shields.io/badge/Tipo-Lógica_de_Programação-lightgrey?style=for-the-badge)
+![DIO](https://img.shields.io/badge/Origem-Digital_Innovation_One-EE2E5D?style=for-the-badge)
+
 
 Este projeto implementa um classificador de heróis utilizando o conceito de **Classes** (Orientação a Objetos - OO) em JavaScript. O objetivo é criar uma estrutura genérica para um herói de aventura e definir seu comportamento de ataque baseado em seu tipo.
 
@@ -8,9 +14,13 @@ Este projeto implementa um classificador de heróis utilizando o conceito de **C
 | Autor | [Thiago Cardoso](https://github.com/thnocard36/) |
 | Professor / Instrutor | [Prof. Felipe Aguiar](https://github.com/felipeAguiarCode) |
 
+----
+
 ## 🎯 Objetivo
 
 Criar uma classe chamada `Heroi` que encapsule as propriedades (`nome`, `idade`, `tipo`) e um método (`atacar`) que exibe a ação de ataque específica de cada tipo de herói (Guerreiro, Mago, Monge, Ninja).
+
+----
 
 ## ✨ Conceitos Trabalhados
 
@@ -21,6 +31,8 @@ Criar uma classe chamada `Heroi` que encapsule as propriedades (`nome`, `idade`,
 -   **Métodos** (funções) dentro da classe.
     
 -   **Estruturas de Decisão** (`if`, `else if`, `else`) para definir o tipo de ataque.
+
+----
 
 ## ⚔️ Regras de Ataque
 
@@ -37,12 +49,12 @@ O método `atacar` deve exibir uma mensagem específica com base na propriedade 
 
 ## 💻 Código JavaScript
 
-*JavaScript*
 ```
 /**
  * Classe que representa um herói de aventura.
  * Possui um método 'atacar' que determina a ação com base no tipo do herói.
  */
+
 class Heroi {
     // O construtor recebe nome, idade e tipo
     constructor(nome, idade, tipo) { 
@@ -106,3 +118,9 @@ ninja.atacar()
     ```
     
 4.  Você verá as mensagens de ataque de cada herói no console.
+
+---
+
+## ⚖️ Licença
+
+Este projeto está sob a licença MIT. Isso significa que você pode copiar, modificar e distribuir o código, desde que inclua o aviso de copyright original.
